@@ -9,7 +9,7 @@
   <meta name="author" content="Profutura Legal Consulting">
 
   <title>Profutura Legal Consulting</title>
-  
+
   <!-- Favicon -->
   <link rel="shortcut icon" href="./img/favicon.ico">
 
@@ -28,12 +28,35 @@
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Profutura Legal Consulting</a>
-    </div>
+  <nav class="navbar  navbar-expand-lg navbar-dark bg-dark top-navbar" data-toggle="sticky-onscroll">
+      <div class="container">
+          <a href="#">
+              <img src="./img/logo.png" alt="logo" width="80" height="80">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav pull-right">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#comeFunziona">Come funziona</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#servizi">Servizi</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#procedura">Procedura</a>
+                  </li>
+              </ul>
+
+          </div>
+      </div>
   </nav>
+
 
   <!-- Masthead -->
   <header class="masthead text-white text-center">
@@ -42,13 +65,13 @@
       <div class="row">
         <div class="col-xl-10 mx-auto">
           <h1 class="mb-5">Hai troppi debiti e non sai più come fare?</h1>
-          <h2 class="mb-5">Prenota una consulenza gratuita con i consulenti di Profutura Legal Consulting e scopri la soluzione migliore per te.
-            I nostri consulenti ti chiameranno entro 48 ore.</h2>
+          <h2 class="mb-5">Prenota una consulenza gratuita con i consulenti di Profutura Legal Consulting e scopri la soluzione migliore per Te.
+            I nostri consulenti Ti chiameranno entro 48 ore.</h2>
         </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+        <div id="contattaci" class="col-md-10 col-lg-8 col-xl-7 mx-auto">
        <section class="fdb-block" id="prova">
             <form action="https://formspree.io/info@profutura.it" method="POST" />
-            <h3>Compila ora il form per prenotare una consulenza gratuita e senza impegno da parte tua</h3>
+            <h3>Compila ora il form per prenotare una consulenza gratuita e senza impegno da parte Tua</h3>
             <div class="container">
               <div class="row justify-content-center">
                 <div>
@@ -105,7 +128,7 @@
 
   <!-- Icons Grid -->
   <section class="features-icons bg-light text-center">
-    <div class="container">
+    <div id="comeFunziona" class="container">
       <div class="row">
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
@@ -113,7 +136,7 @@
               <i class="icon-check m-auto text-primary"></i>
             </div>
             <h3>I professionisti del sovraindebitamento</h3>
-            <p class="lead mb-0">Profutura è uno Studio in cui collaborano Professionisti che operano su tutto il territorio Nazionale a cui le persone in difficoltà economica possono rivolgersi per gestire e risolvere i problemi legati alla loro situazione debitoria.</p>
+            <p class="lead mb-0">Profutura è uno studio di consulenza con cui collaborano professionisti che operano su tutto il territorio, a cui le persone in difficoltà economica possono rivolgersi per gestire e risolvere i problemi legati alla loro situazione debitoria.</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -122,7 +145,7 @@
               <i class="icon-people m-auto text-primary"></i>
             </div>
             <h3>Molti casi risolti con successo</h3>
-            <p class="lead mb-0">Tramite il ricorso alle procedure della Legge n. 3 del 2012 sono stare aiutate centinaia di persone in difficoltà economica e risolti numerosi casi di sovraindebitamento, procedure esecutive per cartelle di Equitalia e pignoramenti.</p>
+            <p class="lead mb-0">Tramite il ricorso alle procedure della Legge n. 3 del 2012 sono state aiutate centinaia di persone in difficoltà economica e risolti numerosi casi di sovraindebitamento, procedure esecutive per cartelle di Equitalia e pignoramenti.</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -131,7 +154,7 @@
               <i class="icon-call-in m-auto text-primary"></i>
             </div>
             <h3>Consulenza gratuita con un esperto</h3>
-            <p class="lead mb-0">Compila il form con i tuoi dati per prenotare una consulenza gratuita e senza impegno con un nostro consulente esperto in materia. Verrai contattato entro 48 ore dall'invio.</p>
+            <p class="lead mb-0">Compila il form con i Tuoi dati per prenotare una consulenza gratuita e senza impegno con un nostro consulente esperto in materia. Verrai contattato entro 48 ore dall'invio.</p>
           </div>
         </div>
       </div>
@@ -141,7 +164,7 @@
 
   <!-- Image Showcases -->
   <section class="showcase">
-    <div class="container-fluid p-0">
+    <div id="servizi" class="container-fluid p-0">
       <div class="row no-gutters">
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/debiti_equitalia.jpg');"></div>
@@ -155,8 +178,8 @@
             finanziarie, si trova - oppure rischia di trovarsi - nell’impossibilità di adempiere le obbligazioni nei termini stabiliti? Sei gravato da fideiussioni prestate
             nell’interesse di terzi?
             La Tua situazione economica è peggiorata per effetto dell’emergenza epidemica da Covid-19 impedendoTi il rispetto delle scadenze di pagamento?
-            Puoi evitare l’eventualità di venire espropriato della Tua prima casa o di subire il pignoramento dello stipendio, di essere sopraffatto e dover
-            sopportare a tempo indefinito il peso dei debiti: la Legge Ti consente infatti di ricorrere a validi strumenti per risollevarTi!
+            <b>Puoi evitare l’eventualità di venire espropriato della Tua prima casa o di subire il pignoramento dello stipendio, di essere sopraffatto e dover
+            sopportare a tempo indefinito il peso dei debiti: la Legge Ti consente infatti di ricorrere a validi strumenti per risollevarTi!</b>
           </p>
         </div>
       </div>
@@ -176,8 +199,8 @@
             economica e familiare, l’accesso al credito con la rimozione del Tuo nome dalle banche dati dei cattivi pagatori.
 
             Con il supporto dello Studio di consulenza Profutura Legal Consulting avrai accesso a una delle procedure della Legge n. 3 del 2012, che Ti permetterà di ridurre i
-            debiti e di riequilibrarli: pagherai soltanto le somme che puoi effettivamente versare in proporzione alle Tue capacità economiche, mentre gli importi
-            eccessivi saranno eliminati per sempre.
+            debiti e di riequilibrarli: <b>pagherai soltanto le somme che puoi effettivamente versare in proporzione alle Tue capacità economiche, mentre gli importi
+            eccessivi saranno eliminati per sempre.</b>
           </p>
         </div>
       </div>
@@ -185,12 +208,12 @@
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/blocco_procedure_esecutive.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Blocco delle procedure esecutive</h2>
-          <p class="lead text-justify mb-0"> Se non agisci per ristrutturare e abbattere legalmente le Tue posizioni debitorie, Ti esponi alla possibilità di
+          <p class="lead text-justify mb-0"> <b>Se non agisci</b> per ristrutturare e abbattere legalmente le Tue posizioni debitorie, Ti esponi alla possibilità di
               una perdita finanziaria superiore al valore del Tuo attuale patrimonio: sarai infatti costretto a rispondere interamente delle obbligazioni anche con i redditi e i
               crediti futuri e, addirittura, con i beni che potrebbero pervenirTi per successione, rimanendo comunque soggetto alle iniziative dei creditori.
 
-              Restando inattivo, tutti i Tuoi beni subiranno gli esiti delle procedure esecutive già in atto e di quelle che potrebbero essere intraprese, con il pericolo di vedere
-              svenduti i Tuoi beni immobili a un prezzo di molto inferiore sia a quello di mercato sia all’ammontare del debito, lasciandoTi privo di patrimonio, ma ancora
+              Restando inattivo, tutti i Tuoi beni subiranno gli esiti delle procedure esecutive già in atto e di quelle che potrebbero essere intraprese, con il <b>pericolo di vedere
+              svenduti i Tuoi beni immobili</b> a un prezzo di molto inferiore sia a quello di mercato sia all’ammontare del debito, lasciandoTi privo di patrimonio, ma ancora
               gravato dagli obblighi e condizionato nelle scelte future.
 
               PLC svolge la migliore consulenza per difenderTi da pignoramenti, esecuzioni di varia natura, fermi amministrativi, iscrizione di ipoteche giudiziali o fiscali.
@@ -202,27 +225,27 @@
 
       <!-- Features Section -->
           <div class="overflow-hidden mt-5">
-            <div class="container space-2">
+            <div id="procedura" class="container space-2">
               <div class="row justify-content-lg-center align-items-lg-center">
                 <div class="col-lg-8">
                   <div class="mb-5">
                     <h2 align="center">Come procediamo</h2>
                   </div>
                   <div class="mb-5">
-                      <ol>
+                      <ul>
                       <li><b>PRIMO COLLOQUIO GRATUITO</b>, volto a inquadrare la fattispecie;</li>
                       <li><b>ELABORAZIONE DI UNA PREANALISI SCRITTA:</b></li>
-                      <ol>
+                      <ul>
                         <li>Acquisiti i documenti salienti, analisi della situazione sotto i profili patrimoniale, finanziario, giuridico, anche considerate le
                           pendenze giudiziarie;
                         </li>
                         <li>diagnosi e valutazione dello stato di sovraindebitamento e delle relative cause;</li>
                         <li>prognosi dello stato di crisi, studio degli aspetti critici e determinazione delle strategie di superamento, individuando gli strumenti giuridici più idonei, quali i piani di riassetto dei
                         debiti.</li>
-                      </ol>
+                      </ul>
                       <li><b>CONSULENZA NELLA GESTIONE E NEL RISANAMENTO DEI DEBITI</b>, anche tramite le procedure della Legge n. 3/2012, assistendo il Cliente nell’istruzione dell’istanza, nella predisposizione del
                       progetto di ristrutturazione, nell’interlocuzione attiva con l’Organismo di Composizione della Crisi</li>
-                    </ol>
+                    </ul>
                   </div>
 
                   <div class="mt-2 mb-5" align="center" data-aos="fade-up">
@@ -245,11 +268,7 @@
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
           <ul class="list-inline mb-2">
             <li class="list-inline-item">
-              <a href="#">Chi Siamo</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Contattaci</a>
+              <a href="#contattaci">Contattaci</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
@@ -260,23 +279,28 @@
               <a href="./Privacy.html">Privacy Policy</a>
             </li>
           </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Profutura Legal Consulting 2020. Tutti i diritti riservati.</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
-              <a href="https://www.facebook.com/">
+              <a href="https://www.facebook.com/Profutura-109800630773083">
                 <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-linkedin fa-2x fa-fw"></i>
               </a>
             </li>
           </ul>
         </div>
       </div>
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <p class="text-muted small"><b>Indirizzo</b> Via del Risorgimento 36, 35137 Padova.<br><b>P.IVA</b> 0495814242</p>
+          <p class="text-muted small"><b>Email</b> info@profutura.it <br> <b>Telefono</b> 049.8258304 <br> <b>Mobile</b> 351.9542358</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <p class="text-muted small mb-4 mb-lg-0" align="center">&copy; Profutura Legal Consulting 2020. Tutti i diritti riservati.
+      </p>
     </div>
   </footer>
 
